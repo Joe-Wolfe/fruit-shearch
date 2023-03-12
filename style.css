@@ -7,7 +7,7 @@
 }
 
 body {
-  /* TODO */
+  /* Creating The Color Gradient */
   background-image: linear-gradient(90deg, yellow, orange);
 }
 
@@ -18,34 +18,25 @@ input {
 }
 
 .search-container {
-  /* TODO */
+  /* The container holding the search buttons and suggestions */
   position: fixed;
-  /* or absolute */
   width: 35%;
   top: 30%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
 
-.search-container input,
-.search-container .suggestions {
+.search-container input {
+  /* styling the search field */
   background-color: rgba(255, 250, 205, 0.644);
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
   border-color: orange;
-  /* TODO */
-}
 
-.search-container input {
-  /* TODO */
 }
 
 .search-container .suggestions {
-  /* TODO */
-}
-
-span {
   /* TODO */
 }
 
@@ -54,11 +45,12 @@ span.has-suggestions {
 }
 
 span div {
-  /* TODO */
+  /* The suggested fruit */
   background-color: rgb(255, 204, 128);
 }
 
 span div:hover {
+  /* create the dimming effect on the suggested fruit*/
   background-color: lightgrey;
 }
 
