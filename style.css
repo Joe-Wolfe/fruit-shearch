@@ -4,22 +4,37 @@
 
 :focus {
   /* TODO */
+  border-color: orange;
 }
 
 body {
   /* TODO */
+  background-image: linear-gradient(90deg, yellow, orange);
 }
 
 input {
   /* text box */
+  margin: auto;
+  width: 100%;
 }
 
 .search-container {
   /* TODO */
+  position: fixed;
+  /* or absolute */
+  width: 35%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .search-container input,
 .search-container .suggestions {
+  background-color: rgba(255, 250, 205, 0.644);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: orange;
   /* TODO */
 }
 
@@ -31,19 +46,22 @@ input {
   /* TODO */
 }
 
-ul {
+span {
   /* TODO */
 }
 
-ul.has-suggestions {
+span.has-suggestions {
   /* TODO */
 }
 
-ul li {
+span div {
   /* TODO */
+  background-color: rgb(255, 204, 128);
 }
 
-ul li:hover {}
+span div:hover {
+  background-color: lightgrey;
+}
 
 input {
   /* TODO */
