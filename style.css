@@ -9,6 +9,7 @@
 body {
   /* Creating The Color Gradient */
   background-image: linear-gradient(90deg, yellow, orange);
+  height: 100vh;
 }
 
 input {
